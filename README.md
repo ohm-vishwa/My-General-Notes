@@ -1,6 +1,7 @@
 # Linux-Comands
 | [Table of Content](https://github.com/ohm-vishwa/Linux-Comands?tab=readme-ov-file#linux-comands)|
 |------------|
+|[setup auto-cpufreq](https://github.com/ohm-vishwa/Linux-Comands/edit/main/README.md#install-auto-cpu-freq)|
 |[Make terminal like look like Parrot OS](https://github.com/ohm-vishwa/Linux-Comands?tab=readme-ov-file#make-terminal-like-look-like-parrot-os)|
 |[Install  Gome extension](https://github.com/ohm-vishwa/Linux-Comands?tab=readme-ov-file#install--gome-extension)|
 |[Stop Battery Charging at 80% in linux (Asus Laptop)](https://github.com/ohm-vishwa/Linux-Comands?tab=readme-ov-file#stop-battery-charging-at-80-in-linux-asus-laptop)|
@@ -8,6 +9,12 @@
 |[Convert .odt to pdf](https://github.com/ohm-vishwa/Linux-Comands?tab=readme-ov-file#convert-odt-to-pdf)|
 |[FFmpeg Commands](https://github.com/ohm-vishwa/Linux-Comands?tab=readme-ov-file#FFmpeg-Commands)|
 |[]()|
+
+## Install Auto CPU Freq 
+```sh
+git clone https://github.com/AdnanHodzic/auto-cpufreq.git
+cd auto-cpufreq && sudo ./auto-cpufreq-installer
+```
 
 ## Make terminal like look like Parrot OS
 [Parrot Os .bashrc file](/.bashrc)
