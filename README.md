@@ -84,5 +84,12 @@ export PATH=$PATH:~/katoolin3:/usr/bin/python3
 libreoffice --convert-to pdf *.odt
 ```
 ---
+
+# Fix brightness in Ubuntu
+```sh
+sudo add-apt-repository ppa:apandada1/brightness-controller
+sudo apt update
+sudo apt install brightness-controller
+```
 ## [GitHub Profile](https://github.com/ohm-vishwa) 
 ## [YouTube](https://www.youtube.com/@ohm_vishwa)
