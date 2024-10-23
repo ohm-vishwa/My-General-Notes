@@ -24,7 +24,7 @@ sudo chmod -R 777 </path/to/folder>
 keytool -genkeypair -v -keystore my-release-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000
 ```
 
-> #### Set Up Gradle Variables\
+> #### Set Up Gradle Variables
 > Move the generated my-release-key.keystore file to the `android/app` directory of your React Native project.\
 > Edit the file `android/gradle.properties`
 
@@ -34,7 +34,7 @@ MYAPP_RELEASE_KEY_ALIAS=my-key-alias
 MYAPP_RELEASE_STORE_PASSWORD=<password>
 MYAPP_RELEASE_KEY_PASSWORD=<password>
 ```
-> #### Configure build.gradle for Signing\
+> #### Configure build.gradle for Signing
 > Open `android/app/build.gradle` and add the following signing configuration inside the android block:
 
 ```gradle
