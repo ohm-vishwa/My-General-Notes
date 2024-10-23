@@ -14,6 +14,11 @@ sudo npx react-native init <project_name>
 sudo chmod -R 777 </path/to/folder>
 ```
 
+> #### setup `local.properties`
+```
+sdk.dir=/home/ohm/Android/Sdk
+```
+
 ---
 ---
 
