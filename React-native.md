@@ -1,7 +1,8 @@
 # react-native
 
----
 ## Initialization
+---
+---
 ---
 
 > #### create app
@@ -16,9 +17,11 @@ sudo npx react-native init <project_name>
 sudo chmod -R 777 </path/to/folder>
 ```
 
----
 ## Setup for apk build
 ---
+---
+---
+
 > #### Generate `my-release-key.keystore`
 ```sh
 keytool -genkeypair -v -keystore my-release-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000
@@ -60,8 +63,9 @@ android {
 }
 ```
 
----
 ## Optimization setup
+---
+---
 ---
 
 > Proguard reduces the size of the APK by removing unused code and resources.\
@@ -100,8 +104,9 @@ android {
 ```
 
 
----
 ## Build Apk
+---
+---
 ---
 
 > build apk
