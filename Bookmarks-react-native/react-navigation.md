@@ -1,3 +1,1 @@
-# React Naigation [`docs`](https://reactnavigation.org/docs/getting-started) [`bottom tab`](https://reactnavigation.org/docs/bottom-tab-navigator)
-
-
+# React Naigation <a href="https://reactnavigation.org/docs/getting-started" target="_blank">`docs`</a> <a href="https://reactnavigation.org/docs/bottom-tab-navigator" target="_blank">`bottom tab`</a>
