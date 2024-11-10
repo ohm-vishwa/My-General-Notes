@@ -5,15 +5,10 @@
 > #### create app
 
 ```sh
-sudo npx react-native init <project_name>
+npx react-native init <project_name>
 ```
 
-> #### change permission 
-
-```sh
-sudo chmod -R 777 </path/to/folder>
-```
-
+if required
 > #### setup `local.properties`
 ```
 sdk.dir=/home/ohm/Android/Sdk
@@ -110,6 +105,10 @@ android {
 
 ## Build Apk
 
+```sh
+cd android
+```
+
 > build apk
 
 ```sh
@@ -119,7 +118,6 @@ android {
 > clean build
 
 ```sh
-cd android
 ./gradlew clean
 ```
 

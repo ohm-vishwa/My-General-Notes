@@ -1,47 +1,22 @@
-# Linux-Comands
+# Linux-Comands | Android | Hacking | Cheat Sheet | Utilities...
 
-|Markdown files|
-|--------------|
-|[react-native](./React-native.md)|
-|[ffmpeg](./ffmpeg.md)|
-|[hashcat](./hashcat.md)|
-|[bettercap](./bettercap.md)|
-|[katoolin3](./Katoolin3.md)|
 
----
----
-## Linux Utility
----
----
+|[Linux](./React-native.md)|
+|-|
+|[fix battery](./Linux/asus-battery.md)|
+|[ffmpeg](./Linux/ffmpeg.md)|
+|[fix brightness](./Linux/fix-brightness.md)|
+|[libreoffice](./Linux/libreoffice.md)|
+|[Paroot os ` .bashrc `](./Linux/Utils/.bashrc)|
 
-### Stop Battery Charging at 80% in linux (Asus Laptop) 
- 
-> Open
-```bash
-sudo nano /etc/crontab
-```
-> paste inside ` /etc/crontab `
-```bash
-@reboot root echo 80 >  /sys/class/power_supply/BAT0/charge_control_end_threshold
-```
----
----
 
-> ### Convert .odt to pdf 
-```sh
-libreoffice --convert-to pdf *.odt
-```
----
----
+|[Android](./ffmpeg.md)|
+|-|
+|[bookmark ` react-native `](./Android/bookmark.md)|
+|[generate apk](./Android/generate-apk.md)|
 
-> ### Fix brightness in Ubuntu
-```sh
-sudo add-apt-repository ppa:apandada1/brightness-controller
-sudo apt update
-sudo apt install brightness-controller
-```
----
----
-
-## [GitHub Profile](https://github.com/ohm-vishwa) 
-## [YouTube](https://www.youtube.com/@ohm_vishwa)
+|[Hacking](./hashcat.md)|
+|-|
+|[bettercap](./Hacking/bettercap.md)|
+|[hashcat](./Hacking/hashcat.md)|
+|[katoolim3](./Hacking/Katoolin3.md)|
