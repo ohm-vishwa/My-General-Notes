@@ -1,4 +1,4 @@
-#  1. React native vector icons [link](https://www.npmjs.com/package/react-native-vector-icons)
+#  1. React native vector icons [npm](https://www.npmjs.com/package/react-native-vector-icons) [icons](https://oblador.github.io/react-native-vector-icons/)
 
 1 install
 ```sh
