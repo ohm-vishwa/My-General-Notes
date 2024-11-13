@@ -29,7 +29,7 @@ export default App;
 
 ```
 
-### bottom Tab Navigation [`docs`](https://reactnavigation.org/docs/bottom-tab-navigator)
+# bottom Tab Navigator [`docs`](https://reactnavigation.org/docs/bottom-tab-navigator)
 
 1 install 
 
@@ -67,3 +67,30 @@ const App = () => {
 
 export default App;
 ```
+
+# Native Stack Navigator [docs](https://reactnavigation.org/docs/native-stack-navigator)
+
+1 install 
+
+```bash
+npm install @react-navigation/native-stack
+```
+
+2 use 
+
+```js
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+
+const Stack = createNativeStackNavigator();
+
+function MyStack() {
+  return (
+    <Stack.Navigator>
+      <Stack.Screen name="Home" component={HomeScreen} />
+      <Stack.Screen name="Profile" component={ProfileScreen} />
+    </Stack.Navigator>
+  );
+}
+```
+
+  
