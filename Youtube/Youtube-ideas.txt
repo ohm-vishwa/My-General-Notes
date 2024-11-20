@@ -1,4 +1,0 @@
-- boiler plate code 
-- user sinnepet
-- print animation
-- 

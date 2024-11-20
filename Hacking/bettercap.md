@@ -15,6 +15,7 @@ set arp.spoof.targets {target_ip_address}
 arp.spoof on
 net.sniff on
 ```
+
 <!-- dawnload latest ui
 ```bash
 ui.update
@@ -26,4 +27,3 @@ bettercap -caplet https-ui
 ```bash
 
 ``` -->
-
