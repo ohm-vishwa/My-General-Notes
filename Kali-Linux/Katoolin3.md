@@ -11,7 +11,7 @@ cd katoolin3
 ```bash
 sudo nano install.sh
 ```
->[!WARNING] 
+>[!NOTE] 
 > Comment out\
 > `#apt-key adv -qq --keyserver pool.sks-keyserver.net.....`
 
@@ -21,7 +21,7 @@ sudo +x ./install.sh
 ```bash
 sudo nano .bashrc
 ```
-> [!IMPORTANT]
+> [!NOTE]
 > Paste at Bottom
 ```bash
 export PATH=$PATH:~/katoolin3:/usr/bin/python3
